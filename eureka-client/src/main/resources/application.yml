@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      #注册中心的地址
+      defaultZone: http://localhost:8761/eureka/
+server:
+  #当前服务端口号
+  port: 8763
+spring:
+  application:
+    #当前应用名称
+    name: service-hi
+  zipkin:
+   base-url: http://localhost:9411
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"

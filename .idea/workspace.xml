@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40d9f6f1-768e-4c4d-81a7-165282deac0a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/euraker-service/target/" />
+    <ignored path="$PROJECT_DIR$/euraker-client/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/ribbon-sercice/target/" />
+    <ignored path="$PROJECT_DIR$/feign-service/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-servivce/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-servivce1/target/" />
+    <ignored path="$PROJECT_DIR$/config-service/target/" />
+    <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/springcloud_demo$EurekaClientApplication.ic" NAME="EurekaClientApplication Coverage Results" MODIFIED="1553179795473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/springcloud_demo$EurakerServiceApplication.ic" NAME="EurakerServiceApplication Coverage Results" MODIFIED="1553087307889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="213" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1874538180">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="57" />
+          <entry key="properties" value="28" />
+          <entry key="xml" value="61" />
+          <entry key="yml" value="155" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="57" />
+          <entry key="Properties" value="28" />
+          <entry key="XML" value="61" />
+          <entry key="YAML" value="155" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="56" />
+          <entry key="cmd" value="1" />
+          <entry key="java" value="77" />
+          <entry key="mvnw" value="1" />
+          <entry key="pom" value="7" />
+          <entry key="properties" value="8" />
+          <entry key="xml" value="20" />
+          <entry key="yml" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="56" />
+          <entry key="JAVA" value="77" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="8" />
+          <entry key="XML" value="27" />
+          <entry key="YAML" value="28" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/FeignServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/HiController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/SchedualServiceHi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zuul-servivce/src/main/java/boc/cn/zuulservivce/MyFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-servivce/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zuul-servivce/src/main/java/boc/cn/zuulservivce/ZuulServivceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/SchedualServiceHiHystric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/HelloService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-sercice/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/RibbonSerciceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring-cloud-c</find>
+      <find>service-ribbon</find>
+      <find>zuul</find>
+      <find>service-feign</find>
+      <find>ref</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/euraker-service/src/main/java/boc/cn/eurakerservice/EurakerServiceApplication.java" />
+        <option value="$PROJECT_DIR$/euraker-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/euraker-service/src/main/resources/appication.yml" />
+        <option value="$PROJECT_DIR$/euraker-client/src/main/java/boc/cn/eurakerclient/EurakerClientApplication.java" />
+        <option value="$PROJECT_DIR$/euraker-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/euraker-client/src/main/java/boc/cn/eurakerclient/HelloController.java" />
+        <option value="$PROJECT_DIR$/euraker-client/pom.xml" />
+        <option value="$PROJECT_DIR$/euraker-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/HelloControler.java" />
+        <option value="$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/FeignServiceApplication.java" />
+        <option value="$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/HiController.java" />
+        <option value="$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/HelloService.java" />
+        <option value="$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/SchedualServiceHiHystric.java" />
+        <option value="$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/SchedualServiceHi.java" />
+        <option value="$PROJECT_DIR$/feign-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuul-servivce/src/main/java/ServiceZuulApplication.java" />
+        <option value="$PROJECT_DIR$/zuul-servivce/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-servivce1/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-servivce1/src/main/java/boc/cn/zuulservivce/ZuulServivceApplication.java" />
+        <option value="$PROJECT_DIR$/zuul-servivce1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/feign-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-servivce/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuul-servivce/src/main/java/boc/cn/zuulservivce/MyFilter.java" />
+        <option value="$PROJECT_DIR$/config-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/boc/cn/configclient/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/RibbonSerciceApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/java/boc/cn/eurekaclient/EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-sercice/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-sercice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-service/src/main/java/boc/cn/configservice/ConfigServiceApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557923919478" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul-servivce" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.configclient.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurakerClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="euraker-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.eurakerclient.EurakerClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurakerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="euraker-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.eurakerservice.EurakerServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.eurekaclient.EurekaClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="feign-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.feignservice.FeignServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RibbonSerciceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ribbon-sercice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.ribbonsercice.RibbonSerciceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServivceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-servivce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="boc.cn.zuulservivce.ZuulServivceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurakerServiceApplication" />
+      <item itemvalue="Spring Boot.EurakerClientApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.RibbonSerciceApplication" />
+      <item itemvalue="Spring Boot.FeignServiceApplication" />
+      <item itemvalue="Spring Boot.ZuulServivceApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40d9f6f1-768e-4c4d-81a7-165282deac0a" name="Default Changelist" comment="" />
+      <created>1553085236315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553085236315</updated>
+      <workItem from="1553085240061" duration="4776000" />
+      <workItem from="1553171058967" duration="11580000" />
+      <workItem from="1553251460158" duration="4555000" />
+      <workItem from="1553260389856" duration="2324000" />
+      <workItem from="1553398167718" duration="6617000" />
+      <workItem from="1553431386527" duration="4694000" />
+      <workItem from="1554728653673" duration="5339000" />
+      <workItem from="1557923514252" duration="756000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40641000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3558981" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38189533" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/ConfigServerConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/EnableConfigServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/java/boc/cn/configservice/ConfigServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonCreator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JsonProperty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar!/com/fasterxml/jackson/annotation/JacksonAnnotation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.1.1.RELEASE/spring-cloud-config-client-2.1.1.RELEASE.jar!/org/springframework/cloud/config/environment/PropertySource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.1.1.RELEASE/spring-cloud-config-client-2.1.1.RELEASE.jar!/org/springframework/cloud/config/environment/Environment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/JdbcEnvironmentRepositoryFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/JdbcEnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-566">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/JdbcRepositoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="57" column="98" selection-start-line="57" selection-start-column="91" selection-end-line="57" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/EnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/Condition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/ProfileCondition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/annotation/Profile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/Environment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/PropertyResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/ConfigurableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/ConfigurablePropertyResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/SvnRepositoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/SvnKitEnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1934">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/configserver.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config/2.1.1.RELEASE/spring-cloud-config-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-config/2.1.1.RELEASE/spring-cloud-starter-config-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/ConfigServerMvcConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/NativeRepositoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/GitRepositoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/NativeEnvironmentRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="201" column="26" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/ResourceRepositoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE.jar!/org/springframework/cloud/config/server/config/CredhubRepositoryConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/boc/cn/eurekaclient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/HelloControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-sercice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-sercice/src/main/java/boc/cn/ribbonsercice/RibbonSerciceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/FeignServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/SchedualServiceHiHystric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-service/src/main/java/boc/cn/feignservice/SchedualServiceHi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-servivce/src/main/java/boc/cn/zuulservivce/ZuulServivceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-servivce/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-servivce/src/main/java/boc/cn/zuulservivce/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>config-service</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
