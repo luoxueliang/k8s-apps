@@ -1,0 +1,18 @@
+stages:
+- name: Build
+  steps:
+  - runScriptConfig:
+      image: maven:3-jdk-7
+      shellScript: mvn clean install
+- name: Publish
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: loner/eurakaer:${CICD_EXECUTION_SEQUENCE}
+      pushRemote: true
+      registry: 192.168.186.13:8088
+- name: Deploy
+  steps:
+  - applyYamlConfig:
+      path: ./deployment.yaml
