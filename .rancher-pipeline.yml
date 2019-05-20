@@ -2,7 +2,7 @@ stages:
 - name: Build
   steps:
   - runScriptConfig:
-      image: 192.168.186.13:8088/loner/manen-leo:v2
+      image: 192.168.186.13:8088/loner/maven-leo:v2
       registry: 192.168.186.13:8088
       shellScript: mvn clean install
 - name: Publish
