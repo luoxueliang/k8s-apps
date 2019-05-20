@@ -3,8 +3,7 @@ stages:
   steps:
   - runScriptConfig:
       image: 192.168.186.13:8088/loner/maven-leo:v2
-      registry: 192.168.186.13:8088
-      shellScript: mvn clean install
+      shellScript: "cd euraker-service \nmvn clean install"
 - name: Publish
   steps:
   - publishImageConfig:
@@ -17,3 +16,4 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
+notification: {}
