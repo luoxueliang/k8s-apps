@@ -2,7 +2,7 @@ stages:
 - name: Build
   steps:
   - runScriptConfig:
-      image: 192.168.186.13:8088/loner/manen-leo
+      image: 192.168.186.13:8088/loner/manen-leo:v2
       shellScript: mvn clean install
 - name: Publish
   steps:
