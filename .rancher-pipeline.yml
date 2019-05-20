@@ -3,7 +3,7 @@ stages:
   steps:
   - runScriptConfig:
       image: 192.168.186.13:8088/loner/maven-leo:v2
-      shellScript: "cd euraker-service \nmvn clean install"
+      shellScript: "cd euraker-service \nmvn clean install -Dmaven.test.skip=true"
 - name: Publish
   steps:
   - publishImageConfig:
