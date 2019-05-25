@@ -2,7 +2,7 @@ stages:
 - name: Build
   steps:
   - runScriptConfig:
-      image: loner/mvn-openjdk8:v1
+      image: 192.168.186.13:8088/loner/mvn-openjdk8:v1
       registry: 192.168.186.13:8088
       shellScript: "cd euraker-service \nmvn clean install -Dmaven.test.skip=true"
 - name: Publish
