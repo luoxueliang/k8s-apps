@@ -2,12 +2,12 @@ stages:
 - name: Build
   steps:
   - runScriptConfig:
-      image: maven:3-jdk-7
+      image: loner/mvn-openjdk8:v1
       shellScript: "cd euraker-service \nmvn clean install -Dmaven.test.skip=true"
 - name: Publish
   steps:
   - publishImageConfig:
-      dockerfilePath: ./Dockerfile
+      dockerfilePath: ./euraker-service/Dockerfile
       buildContext: .
       tag: loner/eurakaer:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
@@ -17,3 +17,4 @@ stages:
   - applyYamlConfig:
       path: ./deployment.yaml
 notification: {}
+
