@@ -18,5 +18,5 @@ stages:
 - name: Deploy
   steps:
   - applyYamlConfig:
-      path: ./deployment.yaml
+      path: ./euraker-service/deployment.yaml
 notification: {}
