@@ -1,0 +1,36 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: eurake-service-svc
+spec:
+  selector:
+    app: eurake-service
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8761
+      targetPort: 8761
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eurake-service
+  labels:
+    app: eurake-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eurake-service
+  template:
+    metadata:
+      labels:
+        app: eurake-service
+    spec:
+      imagePullSecrets:
+      - name: leoharbor
+      containers:
+      - name: eurake-service
+        image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
+        ports:
+        - containerPort: 8761
