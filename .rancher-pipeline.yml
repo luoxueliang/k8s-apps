@@ -12,8 +12,8 @@ stages:
       tag: loner/eurakaer:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
       registry: 192.168.186.13:8088
-    env:     
-      PLUGIN_INSECURE: "true"      
+    env:
+      PLUGIN_DEBUG: "true"      
 - name: Deploy
   steps:
   - applyYamlConfig:
